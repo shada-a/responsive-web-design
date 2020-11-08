@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+html {
+
+    font-size: 20px;
+    margin: 1.5rem;
+    line-height: 1.5;
+    font-family: 'Noto Sans', arial, sans-serif;
+}
+
+nav ul li {
+
+    display: inline;
+    padding-right: 4rem;
+}
+
+
+a {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+nav {
+
+    background-color: hsl(215, 53%, 56%);
+    height: 65px;
+    border-bottom: 25px solid hsl(219, 100%, 19%);
+}
+
+header {
+
+    background-image: url(img/sky.jpg);
+    /*background-size: 100% auto;*/
+    /* background-position: center center;*/
+    background-size: cover;
+    height: 375px;
+}
+
+#name {
+
+    color: hsl(219, 100%, 19%);
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    text-align: left;
+    padding-left: 1rem;
+    font-weight: 900;
+      font-weight: 900;
+    text-shadow: 2px 2px #e19dcc;
+}
+
+#userName {
+
+    color: hsl(215, 53%, 46%);
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 1rem;
+    font-weight: 900;
+    text-shadow: 2px 2px #e19dcc;
+}
+
+
+main {
+
+    padding: 2rem;
+}
+
+h1 {
+
+    color: hsl(219, 100%, 57%);
+    font-size: 3rem;
+}
+
+h2 {
+    color: hsl(219, 100%, 57%);
+    font-size: 1.5rem;
+}
+
+p {
+
+    text-align: justify;
+}
+
+li {
+
+    font-size: 1rem;
+}
